@@ -1,0 +1,14 @@
+{
+  "address":{
+    "streetAddress": "21 2nd Street",
+    "city":"pune",
+    "houseNumber":12
+  },
+  "phoneNumber":
+    [
+    {
+      "number":"string",
+      "type":"home"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+ "persons":
+ [
+   {
+     "lastName": "Sendulkar",
+     "age": 22,
+     "address":
+     {
+         "streetAddress": "A304, Golden apartments",
+         "city": "nupe",
+         "state": "hm",
+         "postalCode": "411008"
+     },
+     "phoneNumbers":
+     [
+         {
+           "type": "home",
+           "number": "000-20003000"
+         },
+         {
+           "type": "mobile",
+           "number": "1112223334"
+         },
+         {
+           "type": "mobile",
+           "number": "1112223335"
+         }
+     ]
+   },
+   {
+     "firstName": "Dapil",
+     "lastName": "Kev",
+     "address":
+     {
+         "streetAddress": "b304, Golden apartments",
+         "city": "nupe",
+         "state": "hm",
+         "postalCode": "411018"
+     },
+     "phoneNumbers":
+     [
+         {
+           "type": "office",
+           "number": "000-30004000"
+         },
+         {
+           "type": "home",
+           "number": "000-30003000"
+         },
+         {
+           "type": "mobile",
+           "number": "1112223344"
+         }
+     ]
+   },
+   
+   {
+     "firstName": "Bamitabh",
+     "lastName": "Acchan",
+     "middleName": "Varihanshrai",
+     "age": 12,
+     "address":
+     {
+         "streetAddress": "c304, Golden apartments",
+         "city": "balahaaaad",
+         "state": "pu",
+         "postalCode": "711018"
+     },
+     "phoneNumbers":
+     [
+         {
+           "type": "mobile",
+           "number": "1112223364"
+         },
+         {
+           "type": "mobile",
+           "number": "1112223365"
+         },
+         {
+           "type": "mobile",
+           "number": "1112223366"
+         }
+     ]
+   }
+ ]
+}

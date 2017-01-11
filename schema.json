@@ -1,0 +1,96 @@
+{
+"persons":
+{
+    "type":"object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "required":true,
+    "items":
+	{
+	"type":"object",
+	"required":true,
+	"properties":{
+	    
+	   "firstname":
+	    {
+		"type":"string",
+		"required":true
+	    },
+	    
+	    "middlename":
+	    {
+		"type":"string",
+		"required":false
+	    },
+
+	    "lastname":
+	    {
+		"type":"string",
+		"required":true
+	    },
+
+	    "age":
+	    {
+		"type":"int",
+		"required":false
+	    },
+
+	    "address":
+	    {
+		"type":"object",
+		"required":true,
+		"properties":
+		{
+		    "streetAddress":
+		    {
+			"type":"string",
+			"required":true
+		    },
+		    "city":
+		    {
+			"type":"string",
+			"required":true
+		    },
+		    "state":
+		    {
+			"type":"string",
+			"required":true
+		    },
+		    "postalCode":
+		    {
+			"type":"string",
+			"required":true
+		    }
+		    
+		}
+	    },
+ 	
+	     "phoneNumbers":
+		{
+		"type":"array",
+		"required":false,
+		
+                   "items":
+		     {
+   			"type":"object",
+			"required":false,
+		
+                 	"properties":
+			{
+				"number":
+				{
+					"type":"string",
+					"required":false	
+				},
+				"type":
+				{
+					"type":"string",
+					"required":false	
+				}	
+			}	
+		    }
+	        }	
+	}
+    }
+}
+
+}

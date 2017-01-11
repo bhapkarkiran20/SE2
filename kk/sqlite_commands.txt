@@ -1,0 +1,8 @@
+sqlite> .databases
+
+
+sqlite> .tables
+
+sqlite>  .save ex1.db
+
+sqlite> .open ex1.db
